@@ -1,0 +1,13 @@
+.avisoTitulo{
+    color: #962424;
+}
+
+.avisoTexto{
+    font-size: 1.2rem;
+}
+
+.avisoButton{
+    margin-top: 80px;
+    align-items: center;
+    background-color: #962424;
+}

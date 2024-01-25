@@ -1,0 +1,41 @@
+.CarusselImg {
+  width: 100%;
+  height: calc(100vh - 120px);
+  filter: brightness(80%);
+}
+
+@media (max-width: 768px) {
+  .CarusselImg {
+    height: calc(100vh - 90px);
+  }
+}
+
+.CarusselText {
+  font-size: x-large;
+}
+
+.carruselEstructura {
+  color: white;
+  font-weight: 500;
+}
+
+.carruselMex {
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .crop1 {
+    object-fit: cover;
+    object-position: 47% 90%;
+  }
+  .crop2 {
+    object-fit: cover;
+    object-position: 15% 65%;
+  }
+  .crop3 {
+    object-fit: cover;
+    object-position: 50%;
+  }
+}
+
