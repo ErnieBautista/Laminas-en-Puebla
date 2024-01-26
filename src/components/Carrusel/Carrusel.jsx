@@ -58,7 +58,7 @@ export const Carrusel = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="CarusselImg crop2"
+          className="crop2"
           src={Grua}
           alt="Estructura metalica"
         />

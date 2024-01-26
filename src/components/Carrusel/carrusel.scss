@@ -1,12 +1,12 @@
 .CarusselImg {
   width: 100%;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 115px);
   filter: brightness(80%);
 }
 
 @media (max-width: 768px) {
   .CarusselImg {
-    height: calc(100vh - 90px);
+    height: calc(100vh - 80px);
   }
 }
 
@@ -28,14 +28,23 @@
   .crop1 {
     object-fit: cover;
     object-position: 47% 90%;
+    height: calc(100vh - 80px);
   }
   .crop2 {
     object-fit: cover;
     object-position: 15% 65%;
+    height: calc(100vh - 80px);
   }
   .crop3 {
     object-fit: cover;
-    object-position: 50%;
+    object-position: 50% 80%;
+    height: calc(100vh - 80px);
   }
 }
 
+.crop2 {
+  height: calc(100vh - 115px);
+  width: 100vw;
+  object-fit: cover;
+  object-position: 30% 70%;
+}
