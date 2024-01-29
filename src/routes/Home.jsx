@@ -11,12 +11,12 @@ export const Home = () => {
   return (
     <div>
       <Bienvenidos />
-      <Carrusel id="carrusel" />
-      <Soluciones />
-      <Beneficios />
       <div className="containerCards">
         <Cards />
       </div>
+      <Soluciones />
+      <Beneficios />
+      <Carrusel id="carrusel" />
       <Galeria />
       <Nosotros />
       <Footer />
