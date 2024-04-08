@@ -28,23 +28,60 @@
   .crop1 {
     object-fit: cover;
     object-position: 47% 90%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 100px);
   }
   .crop2 {
     object-fit: cover;
     object-position: 15% 65%;
-    height: calc(100vh - 80px);
-  }
-  .crop3 {
-    object-fit: cover;
-    object-position: 50% 80%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 100px);
   }
 }
 
 .crop2 {
-  height: calc(100vh - 115px);
+  height: calc(100vh - 100px);
   width: 100vw;
   object-fit: cover;
   object-position: 30% 70%;
+}
+
+
+.wide-photo {
+  width: 100%;
+  height: 100vh; /* Adjust this based on your design */
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  /* Desktop viewports */
+  .wide-photo {
+    height: calc(100vh - 100px);
+    object-position: center 65%; /* Crop top and bottom */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Mobile viewports */
+  .wide-photo {
+    object-position: center bottom /* Crop sides */
+  }
+}
+
+.wide-photo2 {
+  width: 100%;
+  height: 100vh; /* Adjust this based on your design */
+}
+
+@media (min-width: 768px) {
+  /* Desktop viewports */
+  .wide-photo2 {
+    height: calc(100vh - 100px);
+    object-position: center; /* Crop top and bottom */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Mobile viewports */
+  .wide-photo2 {
+    object-position: 49% center; /* Crop sides */
+  }
 }

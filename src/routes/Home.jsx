@@ -3,22 +3,22 @@ import { Bienvenidos } from "../components/Bienvenidos/Bienvenidos";
 import { Cards } from "../components/Cards/Cards";
 import { Carrusel } from "../components/Carrusel/Carrusel";
 import { Footer } from "../components/Footer/Footer";
-import { Galeria } from "../components/Galeria/Galeria";
-import { Nosotros } from "../components/Nosotros/Nosotros";
+import { Links } from "../components/Links/Links";
 import { Soluciones } from "../components/Soluciones/Soluciones";
+import { Formulario } from "../components/Formulario/Formulario"
 
 export const Home = () => {
   return (
     <div>
       <Bienvenidos />
+      <Soluciones />
+      <Beneficios />
       <div className="containerCards">
         <Cards />
       </div>
-      <Soluciones />
-      <Beneficios />
       <Carrusel id="carrusel" />
-      <Galeria />
-      <Nosotros />
+      <Formulario />
+      <Links />
       <Footer />
     </div>
   );
