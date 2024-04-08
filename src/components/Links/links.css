@@ -1,0 +1,27 @@
+.extTraffic {
+  background: rgb(41, 12, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 12, 12, 1) 0%,
+    rgba(150, 36, 36, 1) 50%,
+    rgba(173, 61, 61, 1) 100%
+  );
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+.extLinks {
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.extLinks:hover {
+  font-weight: 900;
+}
+
+.linkh2 {
+  text-align: center;
+}
+

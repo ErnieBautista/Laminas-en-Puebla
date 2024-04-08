@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
 import "./beneficios.css";
 import RN100 from "../../assets/imgs/RN-100 editado.jpg";
-import Arcotecho6 from "../../assets/imgs/Arcotecho despues 4 6-10-2023.webp";
+import LaminaLisa from "../../assets/imgs/Rollos de lamina Hor mod.png";
 import LaminaKR_18 from "../../assets/imgs/KR-18 2.jpg";
 import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
@@ -45,17 +45,19 @@ export const Beneficios = () => {
               <Tab.Content>
                 <Tab.Pane eventKey="#link1" className="px-5">
                   <div className="my-3 beneficiosDescripcion">
-                    Nuestros arcotechos proporcionan soluciones versátiles y
-                    resistentes para una variedad de aplicaciones, desde
-                    canchas, almacenes industriales hasta espacios comerciales.
-                    Al trabajar con nosotros aseguramos durabilidad, diseño estético y funcionalidad.
-                    Proporcionamos a nuestros clientes la
-                    solución ideal para sus necesidades con la mejor relación
-                    <strong> COSTO - BENEFICIO.</strong>
+                    ¡Manejamos solo material de primera!
+                    <ul>
+                      <li>
+                        Zintroalum: Descripcion de zintroalum y sus aplicaciones
+                      </li>
+                      <li>
+                        Pintro: Descripcion del material y sus aplicaciones
+                      </li>
+                    </ul>
                   </div>
                   <img
                     className="BeneficiosImg"
-                    src={Arcotecho6}
+                    src={LaminaLisa}
                     alt="Techo sin estructura"
                   />
                 </Tab.Pane>
@@ -68,7 +70,7 @@ export const Beneficios = () => {
                     cualquier otra estructura, nuestras soluciones metálicas son
                     sinónimo de calidad y durabilidad.
                   </div>
-                  <img className="BeneficiosImg" src={RN100} alt="" />
+                  <img className="BeneficiosImg laminas" src={RN100} alt="" />
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link3" className="px-5">
                   <div className="my-3 beneficiosDescripcion">
@@ -76,7 +78,7 @@ export const Beneficios = () => {
                     NTC-DF2004 y al Manual de Diseño por Viento de CFE Vigente.
                   </div>
                   <img
-                    className="BeneficiosImg"
+                    className="BeneficiosImg laminas"
                     src={LaminaKR_18}
                     alt=""
                   />

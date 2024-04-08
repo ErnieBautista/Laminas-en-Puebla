@@ -1,6 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import Button from "react-bootstrap/Button";
-import LaminasRoladas from "../../assets/imgs/Laminas Roladas.jpg";
+import BodegaWV from "../../assets/imgs/Tracto con laminas.jpg"
 import MaquinaRN100 from "../../assets/imgs/Maquina RN-100.jpg";
 import MaquinaKR_18 from "../../assets/imgs/Maqunia KR-18 4.jpg";
 import Grua from "../../assets/imgs/Grua.jpg";
@@ -11,18 +11,15 @@ export const Carrusel = () => {
   return (
     <Carousel id="/">
       <Carousel.Item>
-      <img className="CarusselImg crop3" src={MaquinaRN100} alt="Arcotecho" />
+      <img className="wide-photo" src={BodegaWV} alt="Arcotecho" />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h1>¡Bienvenidos a LaminasEnPuebla.Com!</h1>
-            <Button href="/#contactanos" className="my-2" variant="danger">
-              Contáctanos
-            </Button>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="CarusselImg crop3" src={MaquinaRN100} alt="Arcotecho" />
+        <img className="wide-photo2" src={MaquinaRN100} alt="Arcotecho" />
         <Carousel.Caption className="pb-5">
           <div className="pb-5">
             <h2>Materializamos tus proyectos</h2>
@@ -30,9 +27,6 @@ export const Carrusel = () => {
               Materializamos tus proyectos protegiendo tu inversión.
             </p>
             <br />
-            <Button href="/#contactanos" className="mt-1" variant="danger">
-              Contáctanos
-            </Button>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -50,9 +44,6 @@ export const Carrusel = () => {
               instalar techos curvos de alta calidad.
             </p>
             <br />
-            <Button href="/#contactanos" className="my-2" variant="danger">
-              Contáctanos
-            </Button>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -71,9 +62,6 @@ export const Carrusel = () => {
               expectativas de nuestros clientes.
             </p>
             <br />
-            <Button href="/#contactanos" className="mt-5" variant="danger">
-              Contáctanos
-            </Button>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

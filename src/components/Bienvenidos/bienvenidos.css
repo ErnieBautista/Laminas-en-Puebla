@@ -1,13 +1,24 @@
-.vid {
-    margin: 0;
-    padding: 0;
+.bienvenida {
     width: 100%;
     height: 100vh;
 }
 
-video {
+.vid {
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 87%;
+    height: calc(100vh - 80px);
+}
+
+@media (min-width: 768px) {
+    .vid {
+        height: calc(100vh - 100px);
+    }
+}
+
+img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
 }
@@ -18,10 +29,8 @@ video {
     width: 100%;
     top: 4%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 .fondo {
@@ -34,7 +43,10 @@ video {
 }
 
 .logo {
-    width: 300px;
+    width: 400px;
+    height: 120px;
+    position: absolute;
+    z-index: 100!important;
 }
 
 @media (max-width: 800px) {

@@ -1,8 +1,8 @@
 import Card from "react-bootstrap/Card";
-import { RiMedalLine } from "react-icons/ri";
-import { RiBriefcase5Fill } from "react-icons/ri";
-import { RiRouteLine } from "react-icons/ri";
-import { RiMoneyDollarCircleFill } from "react-icons/ri";
+import { IoSpeedometer } from "react-icons/io5";
+import { IoShieldCheckmarkSharp } from "react-icons/io5";
+import { IoHappySharp } from "react-icons/io5";
+import { IoCart } from "react-icons/io5";
 
 import "./cards.scss";
 import { Container } from "react-bootstrap";
@@ -10,50 +10,43 @@ export const Cards = () => {
   return (
     <Container>
       <h2 className="text-white">Beneficios</h2>
-      <p className="pt-3">
-        Descubre los beneficios de elegirnos para tus proyectos de arcotechos.
-        Explora cómo trabajar con nosotros puede maximizar el éxito de tus
-        obras.
+      <p className="pt-3 fs-4 d-flex justify-content-center">
+        ¡Descubre los beneficios de trabajar con fabricantes directos!
       </p>
       <div className="d-lg-flex justify-content-between mt-5 gap-4">
-          <Card className="col-lg-3 col-md-12 my-3">
-            <RiMedalLine className="cardIcons" />
+          <Card className="cards col-lg-3 col-md-12 my-3">
+            <IoSpeedometer className="cardIcons" />
             <Card.Body className="cardBody">
-              <Card.Title className="fw-bold">Calidad</Card.Title>
+              <Card.Title className="fw-bold">Rapidez</Card.Title>
               <Card.Text className="cardDescription">
-                Sólo manejamos materiales de calidad certificada, priorizando la
-                correcta aplicación de los recursos para garantizar la
-                satisfacción de nuestros clientes.
+                Tenemos el mejor tiempo de respuesta y el mejor tiempo de entrega.
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-lg-3 col-md-12 my-3">
-            <RiBriefcase5Fill className="cardIcons" />
+          <Card className="cards col-lg-3 col-md-12 my-3">
+            <IoShieldCheckmarkSharp className="cardIcons" />
             <Card.Body className="cardBody">
-              <Card.Title className="fw-bold">Experiencia</Card.Title>
+              <Card.Title className="fw-bold">Seguridad</Card.Title>
               <Card.Text className="cardDescription">
-                Nuestra experiencia y habilidad técnica garantizan la mejor
-                solucion a las necesidades del cliente.
+                Unicamente vendemos laminas de primera y de calidad certificada.
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-lg-3 col-md-12 my-3">
-            <RiRouteLine className="cardIcons" />
+          <Card className="cards col-lg-3 col-md-12 my-3">
+            <IoHappySharp className="cardIcons" />
             <Card.Body className="cardBody">
-              <Card.Title className="fw-bold">Adaptabilidad</Card.Title>
+              <Card.Title className="fw-bold">Servicio</Card.Title>
               <Card.Text className="cardDescription">
-                Priorizamos las necesidades de los procesos del cliente para un
-                optimo desempeño de sus labores.
+                Recibes el mejor servicio de expertos con años de experiencia en el sector.
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card className="col-lg-3 col-md-12 my-3">
-            <RiMoneyDollarCircleFill className="cardIcons" />
+          <Card className="cards col-lg-3 col-md-12 my-3">
+            <IoCart className="cardIcons" />
             <Card.Body className="cardBody">
-              <Card.Title className="fw-bold">Beneficios</Card.Title>
+              <Card.Title className="fw-bold">Facilidad de compra</Card.Title>
               <Card.Text className="cardDescription">
-                Nos enfocamos en optimizar la mejor relación costo-beneficio
-                para brindar al cliente la mejor calidad al mejor precio.
+                Descripcion de compras o considerar cambiar el punto
               </Card.Text>
             </Card.Body>
           </Card>

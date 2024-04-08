@@ -65,6 +65,11 @@
   height: 35vh;
 }
 
+.laminas {
+  object-fit: cover;
+  object-position: 50% 90%;
+}
+
 .BeneficiosImg2 {
   width: 50%;
   height: 35vh;
