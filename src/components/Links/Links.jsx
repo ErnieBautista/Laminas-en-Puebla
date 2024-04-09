@@ -1,8 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { FaFacebookSquare } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 import "./links.css";
 
 export const Links = () => {
@@ -27,32 +24,11 @@ export const Links = () => {
           <h3 className="pt-4">SÍGUENOS</h3>
           <Col className="text-center">
             <a
-              href="https://www.facebook.com/techoscurvoss"
+              href="https://www.facebook.com/LaminasEnPueblaCom?mibextid=ZbWKwL"
               target=" _blank"
               className="px-1 fs-3"
             >
               <FaFacebookSquare />
-            </a>
-            <a
-              href="https://api.whatsapp.com/send?phone=5212224397551&text=Hola,%20quiero%20una%20cotizaci%C3%B3n%20por%20favor"
-              target=" _blank"
-              className="px-1 fs-3"
-            >
-              <FaWhatsapp />
-            </a>
-            <a
-              href="https://www.instagram.com/techoscurvos/?hl=es"
-              target=" _blank"
-              className="px-1 fs-3"
-            >
-              <FaInstagram />
-            </a>
-            <a
-              href="https://www.linkedin.com/company/techos-curvos-com/about/"
-              target=" _blank"
-              className="px-1 fs-3"
-            >
-              <FaLinkedin />
             </a>
           </Col>
         </Row>

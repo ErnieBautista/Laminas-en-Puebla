@@ -43,8 +43,8 @@ img {
 }
 
 .logo {
-    width: 400px;
-    height: 120px;
+    width: 350px;
+    height: 100px;
     position: absolute;
     z-index: 100!important;
 }
