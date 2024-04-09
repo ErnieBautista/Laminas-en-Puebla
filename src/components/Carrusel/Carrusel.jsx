@@ -1,70 +1,53 @@
 import Carousel from "react-bootstrap/Carousel";
-import Button from "react-bootstrap/Button";
-import BodegaWV from "../../assets/imgs/Tracto con laminas.jpg"
-import MaquinaRN100 from "../../assets/imgs/Maquina RN-100.jpg";
-import MaquinaKR_18 from "../../assets/imgs/Maqunia KR-18 4.jpg";
-import Grua from "../../assets/imgs/Grua.jpg";
+import { Container } from "react-bootstrap";
 import "./carrusel.scss";
 
 export const Carrusel = () => {
-  
   return (
-    <Carousel id="/">
+    <div className="slidesYT pt-5">
+      <h2 className="textYT">Videos de nuestro trabajo</h2>
+    <Carousel interval={null} id="/" className="mt-2">
       <Carousel.Item>
-      <img className="wide-photo" src={BodegaWV} alt="Arcotecho" />
-        <Carousel.Caption className="pb-5">
-          <div className="pb-5">
-            <h1>¡Bienvenidos a LaminasEnPuebla.Com!</h1>
-          </div>
-        </Carousel.Caption>
+        <Container>
+          <iframe
+            className="wide-photo mx-auto my-5"
+            src="https://youtube.com/embed/UoV8ZdKn86U?feature=shared"
+            title="Youtube video"
+            allowFullScreen
+            />
+        </Container>
       </Carousel.Item>
       <Carousel.Item>
-        <img className="wide-photo2" src={MaquinaRN100} alt="Arcotecho" />
-        <Carousel.Caption className="pb-5">
-          <div className="pb-5">
-            <h2>Materializamos tus proyectos</h2>
-            <p className="CarusselText">
-              Materializamos tus proyectos protegiendo tu inversión.
-            </p>
-            <br />
-          </div>
-        </Carousel.Caption>
+        <Container>
+          <iframe
+            className="wide-photo mx-auto my-5"
+            src="https://youtube.com/embed/UoV8ZdKn86U?feature=shared"
+            title="Youtube video"
+            allowFullScreen
+            />
+        </Container>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="CarusselImg crop1"
-          src={MaquinaKR_18}
-          alt="Techo sin estructura"
-        />
-        <Carousel.Caption className="pb-5">
-          <div className="pb-5">
-            <h2>Tenemos experiencia</h2>
-            <p className="CarusselText">
-              Hemos perfeccionado la técnica y la metodología para diseñar e
-              instalar techos curvos de alta calidad.
-            </p>
-            <br />
-          </div>
-        </Carousel.Caption>
+        <Container>
+          <iframe
+            className="wide-photo mx-auto my-5"
+            src="https://youtube.com/embed/UoV8ZdKn86U?feature=shared"
+            title="Youtube video"
+            allowFullScreen
+            />
+        </Container>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className="crop2"
-          src={Grua}
-          alt="Estructura metalica"
-        />
-        <Carousel.Caption className="pb-5">
-          <div className="pb-5">
-            <h2 className="carruselEstructura fs-1">Estamos comprometidos</h2>
-            <p className="carruselEstructura fs-4">
-              Desde la selección cuidadosa de materiales hasta la entrega de
-              nuestros productos y servicios, nos esforzamos por superar las
-              expectativas de nuestros clientes.
-            </p>
-            <br />
-          </div>
-        </Carousel.Caption>
+        <Container>
+          <iframe
+            className="wide-photo mx-auto my-5"
+            src="https://youtube.com/embed/UoV8ZdKn86U?feature=shared"
+            title="Youtube video"
+            allowFullScreen
+            />
+        </Container>
       </Carousel.Item>
     </Carousel>
+            </div>
   );
 };
