@@ -1,7 +1,7 @@
 import React from "react";
 import "./bienvenidos.css";
 import MaquinaVid from "../../assets/imgs/Gif-480-opt.gif";
-import Logo from "../../assets/imgs/Logo Laminas.png";
+import Logo from "../../assets/imgs/laminas logo bordes blancos.png";
 
 export const Bienvenidos = () => {
   return (
