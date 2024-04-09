@@ -39,6 +39,9 @@ export const Beneficios = () => {
                 <ListGroup.Item variant="secondary" action href="#link3">
                   KR-18
                 </ListGroup.Item>
+                <ListGroup.Item variant="secondary" action href="#link4">
+                  Losacero
+                </ListGroup.Item>
               </ListGroup>
             </Col>
             <Col sm={8}>
@@ -73,6 +76,17 @@ export const Beneficios = () => {
                   <img className="BeneficiosImg laminas" src={RN100} alt="" />
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link3" className="px-5">
+                  <div className="my-3 beneficiosDescripcion">
+                    Nuestros trabajos son diseñados y calculados con apego a
+                    NTC-DF2004 y al Manual de Diseño por Viento de CFE Vigente.
+                  </div>
+                  <img
+                    className="BeneficiosImg laminas"
+                    src={LaminaKR_18}
+                    alt=""
+                  />
+                </Tab.Pane>
+                <Tab.Pane eventKey="#link4" className="px-5">
                   <div className="my-3 beneficiosDescripcion">
                     Nuestros trabajos son diseñados y calculados con apego a
                     NTC-DF2004 y al Manual de Diseño por Viento de CFE Vigente.
