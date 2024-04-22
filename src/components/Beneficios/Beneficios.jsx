@@ -1,14 +1,18 @@
+import { useEffect, useState } from "react";
+import { Container } from "react-bootstrap";
+import Carousel from "react-bootstrap/Carousel";
 import Col from "react-bootstrap/Col";
 import ListGroup from "react-bootstrap/ListGroup";
 import Row from "react-bootstrap/Row";
 import Tab from "react-bootstrap/Tab";
+
 import "./beneficios.css";
 import LaminaLisa from "../../assets/imgs/Rollos de lamina Hor mod.png";
 import RN100 from "../../assets/imgs/RN-100 internet.webp";
+import RN100Timpano from "../../assets/imgs/Medio timpano RN-100.webp";
 import LaminaKR_18 from "../../assets/imgs/Lamina KR-18.webp";
+import KR_18Montada from "../../assets/imgs/KR-18 montada.webp";
 import Losacero from "../../assets/imgs/Losacero internet.webp";
-import { useEffect, useState } from "react";
-import { Container } from "react-bootstrap";
 
 export const Beneficios = () => {
   const [currentLink, setCurrentLink] = useState("#link1");
@@ -73,19 +77,33 @@ export const Beneficios = () => {
                 <Tab.Pane eventKey="#link2" className="px-5">
                   <div>
                     <p className="my-3 beneficiosDescripcion">
-                      Lamina recta engargolable que se utiliza en techos de 1 o 2
-                      aguas y timpanos. Poder cubriente de 100cm
+                      Lamina recta engargolable que se utiliza en techos de 1 o
+                      2 aguas y timpanos. Poder cubriente de 100cm
                     </p>
-                    <img className="laminas" src={RN100} alt="" />
+                    <Carousel variant="dark">
+                      <Carousel.Item interval={4500}>
+                        <img className="laminas" src={RN100} alt="" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={4500}>
+                        <img className="laminas" src={RN100Timpano} alt="" />
+                      </Carousel.Item>
+                    </Carousel>
                   </div>
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link3" className="px-5">
                   <div>
                     <p className="my-3 beneficiosDescripcion">
-                      Lamina recta engargolable que se utiliza en techos de 1 o 2
-                      aguas y timpanos. Poder cubriente de 45.7cm
+                      Lamina recta engargolable que se utiliza en techos de 1 o
+                      2 aguas y timpanos. Poder cubriente de 45.7cm
                     </p>
-                    <img className="kr18IMG" src={LaminaKR_18} alt="" />
+                    <Carousel variant="dark">
+                      <Carousel.Item interval={4500}>
+                        <img className="kr18IMG" src={LaminaKR_18} alt="" />
+                      </Carousel.Item>
+                      <Carousel.Item interval={4500}>
+                        <img className="laminas" src={KR_18Montada} alt="" />
+                      </Carousel.Item>
+                    </Carousel>
                   </div>
                 </Tab.Pane>
                 <Tab.Pane eventKey="#link4" className="px-5">

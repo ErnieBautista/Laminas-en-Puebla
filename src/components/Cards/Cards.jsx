@@ -19,7 +19,7 @@ export const Cards = () => {
           <Card.Body className="cardBody">
             <Card.Title className="fw-bold">Rapidez</Card.Title>
             <Card.Text className="cardDescription">
-              Tenemos el mejor tiempo de respuesta y el mejor tiempo de entrega.
+              Tenemos el mejor tiempo de respuesta y entrega.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -38,8 +38,7 @@ export const Cards = () => {
           <Card.Body className="cardBody">
             <Card.Title className="fw-bold">Servicio</Card.Title>
             <Card.Text className="cardDescription">
-              Recibes el mejor servicio de expertos con años de experiencia en
-              el sector.
+              El mejor servicio de expertos con años de experiencia en el sector.
             </Card.Text>
           </Card.Body>
         </Card>
