@@ -18,21 +18,6 @@
 .wide-photo {
   width: 80%;
   height: calc(100vh - 100px);
-  display: flex;
-  justify-content: center;
 }
 
-@media (min-width: 768px) {
-  /* Desktop viewports */
-  .wide-photo {
-    height: calc(100vh - 100px);
-    object-position: center 65%; /* Crop top and bottom */
-  }
-}
 
-@media (max-width: 767px) {
-  /* Mobile viewports */
-  .wide-photo {
-    object-position: center bottom; /* Crop sides */
-  }
-}

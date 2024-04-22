@@ -60,24 +60,19 @@
   min-height: 15vh;
 }
 
-.BeneficiosImg {
-  width: 100%;
-  height: 35vh;
-}
 
-.laminas {
-  object-fit: cover;
-  object-position: 50% 90%;
-}
 
-.BeneficiosImg2 {
-  width: 50%;
-  height: 35vh;
-  right: 0;
-}
-
-.BeneficiosImg3 {
-  width: 50%;
-  height: 35vh;
-  left: 0;
+@media (min-width: 768px) {
+  .catalogo {
+    height: 85vh;
+  }
+  .BeneficiosImg {
+      height: 38vh;
+  }
+  .laminas {
+    height: 55%;
+  }
+  .kr18IMG {
+    height: 60vh;
+  }
 }
