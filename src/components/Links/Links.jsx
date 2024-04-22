@@ -10,14 +10,20 @@ export const Links = () => {
           <Col className="pb-5">
             <h4 className="fs-4">¿Necesitas la instalación de un arcotecho?</h4>
             <br />
-            <a className="extLinks" href="https://techoscurvos.com/">
+            <a className="extLinks" href="https://techoscurvos.com/" target="_blank">
               techoscurvos.com
             </a>
           </Col>
           <Col>
             <h4 className="fs-4">¿Te interesa rentar una máquina roladora?</h4>
             <br />
-            <a className="extLinks" href="https://www.maquinasuperspan.com/">maquinasuperspan.com</a>
+            <a
+              className="extLinks"
+              href="https://www.maquinasuperspan.com/"
+              target="_blank"
+            >
+              maquinasuperspan.com
+            </a>
           </Col>
         </Row>
         <Row>
@@ -25,7 +31,7 @@ export const Links = () => {
           <Col className="text-center">
             <a
               href="https://www.facebook.com/LaminasEnPueblaCom?mibextid=ZbWKwL"
-              target=" _blank"
+              target="_blank"
               className="px-1 fs-3"
             >
               <FaFacebookSquare />

@@ -20,7 +20,7 @@ export const Contactanos = () => {
         <li>
           <a
             className="colorWhite"
-            href="mailto:laminasenpuebla.com@gmail.com?subject=Quiero una cotizacion por favor&body=Nombre:%0ACel:%0AMaterial:%0ACalibre:%0AKilos:%0A¿Requiere flete?:"
+            href="mailto:laminasenpuebla.com@gmail.com?subject=Quiero una cotizacion por favor&body=Nombre:%0ACel con Whatsapp:%0A¿Qué perfil de laminas te interesa comprar?:%0A¿Cuántas láminas requieres?¿De que medidas?:%0A¿Requieres servicio de flete?:%0A¿Donde necesitas que se entreguen?:"
           >
             laminasenpuebla.com@gmail.com
           </a>

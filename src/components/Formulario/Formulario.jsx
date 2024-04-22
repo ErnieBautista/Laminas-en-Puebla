@@ -27,7 +27,7 @@ export const Formulario = () => {
               Email:{" "}
               <a
                 className="text-primary"
-                href="mailto:laminasenpuebla.com@gmail.com?subject=Quiero una cotizacion por favor&body=Nombre:%0ACel:%0AEstado:%0AMuncipio:%0AClaro:%0AProfundidad:%0ATienes obra civil?:"
+                href="mailto:laminasenpuebla.com@gmail.com?subject=Quiero una cotizacion por favor&body=Nombre:%0ACel con Whatsapp:%0A¿Qué perfil de laminas te interesa comprar?:%0A¿Cuántas láminas requieres?¿De que medidas?:%0A¿Requieres servicio de flete?:%0A¿Donde necesitas que se entreguen?:"
               >
                 laminasenpuebla.com@gmail.com
               </a>
@@ -50,7 +50,7 @@ export const Formulario = () => {
             <br />
             <Button
               className="text-white my-3"
-              href="https://api.whatsapp.com/send?phone=5212224397551&text=Hola,%20quiero%20una%20cotizaci%C3%B3n%20por%20favor"
+              href="https://api.whatsapp.com/send?phone=5212212588979&text=Hola,%20quiero%20una%20cotizaci%C3%B3n%20por%20favor"
               variant="success"
               target="_blank"
             >

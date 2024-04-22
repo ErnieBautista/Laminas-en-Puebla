@@ -13,7 +13,7 @@ export const Carrusel = () => {
   };
 
   return (
-    <div className="slidesYT pt-5">
+    <div className="slidesYT pt-5 " id="videos">
       <h2 className="textYT">Videos de nuestro trabajo</h2>
       <Carousel
         activeIndex={index}
@@ -25,7 +25,7 @@ export const Carrusel = () => {
         <Carousel.Item>
           <Container>
             <ReactPlayer
-              className="wide-photo mx-auto my-5"
+              className="wide-photo mx-auto my-5 w-75"
               url="https://www.youtube.com/embed/aG6qpdOTVfM?si=k3gvLeLxl_TKhPNM"
               title="Youtube video"
               height={700}
@@ -37,7 +37,7 @@ export const Carrusel = () => {
         <Carousel.Item>
           <Container>
             <ReactPlayer
-              className="wide-photo mx-auto my-5"
+              className="wide-photo mx-auto my-5 w-75"
               url="https://www.youtube.com/embed/49cxCJcgxvc?si=Pp_krj-BnqnXcxm5"
               title="Youtube video"
               height={700}
@@ -49,7 +49,7 @@ export const Carrusel = () => {
         <Carousel.Item>
           <Container>
             <ReactPlayer
-              className="wide-photo mx-auto my-5"
+              className="wide-photo mx-auto my-5 w-75"
               url="https://youtube.com/embed/UoV8ZdKn86U?feature=shared"
               title="Youtube video"
               height={700}

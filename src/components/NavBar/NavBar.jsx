@@ -27,6 +27,9 @@ function NavBar() {
             <Nav.Link eventKey={2} href="/#catalogo">
               <HashLink smooth to="/#catalogo">Catalogo</HashLink>
             </Nav.Link>
+            <Nav.Link eventKey={2} href="/#videos">
+              <HashLink smooth to="/#videos">Videos</HashLink>
+            </Nav.Link>
             <Nav.Link>
               <HashLink smooth to="/#contactanos">
                 Contactanos
